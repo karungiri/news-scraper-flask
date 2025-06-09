@@ -1,0 +1,27 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 233-863-765
+127.0.0.1 - - [09/Jun/2025 04:48:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2025 04:48:36] "GET /static/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Jun/2025 04:48:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ * Detected change in '/project/sandbox/user-workspace/app.py', reloading
+ * Restarting with stat
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "run_scraping_job" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:root:Error fetching https://kuenselonline.com: HTTPSConnectionPool(host='kuenselonline.com', port=443): Read timed out. (read timeout=10)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 233-863-765
+INFO:werkzeug: * Detected change in '/project/sandbox/user-workspace/scraper/scheduler.py', reloading
+ * Restarting with stat
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "run_scraping_job" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Starting scraping job
+ERROR:root:Error fetching https://kuenselonline.com: HTTPSConnectionPool(host='kuenselonline.com', port=443): Read timed out. (read timeout=10)
+WARNING:root:Kuensel: Failed to fetch HTML
